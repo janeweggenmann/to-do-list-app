@@ -35,4 +35,16 @@ function newItem(){
  // 4. Making items sortable/able to be re-ordered:
    $('#list').sortable();
 
+//Clears form after submitting
+   $("#toDoList")[0].reset();
+   event.preventDefault;
+   return false;
 }
+
+//Create new list item with Enter keypress, prevent page from re-loading
+$('input[type=text]').keypress(function(e) {
+    if (e.which == 13) {
+      newItem();
+      e.preventDefault();
+      }
+});
