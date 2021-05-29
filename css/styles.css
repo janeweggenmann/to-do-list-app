@@ -1,46 +1,55 @@
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@500&display=swap);
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
 
 body {
-font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #dfdfdf;
+  font: normal normal 14px/18px "Open Sans", sans-serif;
+  background: #F7F7F7;
 }
 
 .container{
-padding: 20px;
-width: 300px;
-margin: 0 auto;
-margin-top: 40px;
-background: white;
-border-radius: 5px;}
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: white;
+  border-radius: 5px;
+}
 
 form {
-display: inline-block;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 input{
-padding: 4px 15px 4px 5px;
+  padding: 6px 15px 6px 6px;
+  width: 250px;
+  font: normal normal 14px/18px "Open Sans", sans-serif;
 }
 
 #button{
-display: inline-block;
-background-color:#fc999b;
-color:#ffffff;
-border-radius: 5px;
-text-align:center;
-margin-top:2px;
-padding: 5px 15px;
+  display: inline-block;
+  background-color: #BFD891;
+  color: #000;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 8px 15px;
+  width: 60px;
 }
 
 #button:hover{
-cursor: pointer;
-opacity: .8;}
+  cursor: pointer;
+  background-color: #DAF7A6;
+}
 
 ol {padding-left: 20px;}
 
 ol li {padding: 5px;color:#000;}
-
-ol li:nth-child(even){background: #dfdfdf;}
 
 .strike{text-decoration: line-through;}
 
@@ -56,6 +65,8 @@ li > crossOutButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
-	font-weight: 800;
+	color: #525D3E;
+  font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+  margin-right: 45px;
 }
